@@ -23,7 +23,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 #center{
     width: 60%;
@@ -49,7 +48,7 @@
     align-items: center;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:799px) {
     #body{
         display: flex;
         flex-direction: column;
@@ -57,16 +56,15 @@
     }
     #asside{
         width: 100%;
-        height: 23vh;
+        height: 13vh;
     }
     #center{
         width: 100%;    
-        height: 24vh; 
+        height: 44vh; 
     }  
         #navbar{
             width: 100%;
-           height: 23vh;
+           height: 13vh;
         
-        }
-    
+        }  
 }
