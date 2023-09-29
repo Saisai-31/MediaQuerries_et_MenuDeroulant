@@ -47,13 +47,13 @@ header nav ul li:hover ul li{
     display: block;
 }
 
-@media screen and (max-width:820px) {
+@media screen and (max-width:900px) {
     body{
         background-color: black;
     }   
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
     body{
         background-color: green;
     }   
