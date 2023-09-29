@@ -1,8 +1,12 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
+
+body{
+    background-color: bisque;
+}
 
 header{
     font-family: Arial, Helvetica, sans-serif;
@@ -22,7 +26,7 @@ header nav ul li{
     margin: 0;
     padding: 0;
     float: left; /*je positionne le menu à gauche*/
-    width: 300px;
+    width: 25vw;
     line-height: 40px;
     background-color: #50e055;
     text-align: center; 
@@ -51,6 +55,9 @@ header nav ul li:hover ul li{
     body{
         background-color: black;
     }   
+    header nav ul li{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width:600px) {
