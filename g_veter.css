@@ -253,11 +253,13 @@ input{
 #envoi{
     background-color: lightgrey;
     font-weight: bold;
+    cursor: pointer;
 }
 #annule{
     border-radius: 0 0 20px 20px;
     background-color: lightgrey;
     font-weight: bold;
+    cursor: pointer;
 }
 fieldset{
     display: flex;
