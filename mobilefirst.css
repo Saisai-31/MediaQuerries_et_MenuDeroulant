@@ -18,6 +18,7 @@ footer{
     background-color: black;
     text-align: center;
     color: white;
+    margin-top: 5px;
 }
 
 @media screen and (min-width: 600px) {
@@ -52,6 +53,6 @@ footer{
         width: 1180px;
     }
     main section{
-        min-width: 25%;
+        min-width: 30%;
     }
 }
